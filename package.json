@@ -1,0 +1,29 @@
+{
+  "name": "error-handling",
+  "version": "1.0.0",
+  "description": "Error handling for synchronous and asynchronous code in NodeJS applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taibuharoub/error-handling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taibuharoub/error-handling/issues"
+  },
+  "homepage": "https://github.com/taibuharoub/error-handling#readme",
+  "dependencies": {
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "morgan": "^1.10.0"
+  }
+}
