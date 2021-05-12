@@ -18,6 +18,10 @@
 
 ### 🏠 [Homepage](https://github.com/taibuharoub/error-handling#readme)
 
+## Setup
+Clone this repo to your desktop and run `npm install` to install all the dependencies.
+
+
 ## Install
 
 ```sh
@@ -25,6 +29,8 @@ npm install
 ```
 
 ## Usage
+
+Add "config/config.env and update the values/settings to your own
 
 ```sh
 npm start
