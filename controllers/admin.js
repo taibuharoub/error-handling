@@ -5,10 +5,10 @@ exports.getIndex = (req, res, next) => {
       const rand = Math.random();
       setTimeout(() => {
         if (rand < 0.5) {
-          resolve("YOUR FAKE HERE");
+          resolve("YOUR FAKE DATA");
         }
         reject("REQUEST ERROR!");
-      }, 2000);
+      }, 1000);
     });
     return promise;
   };
